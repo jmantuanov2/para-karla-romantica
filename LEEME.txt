@@ -1,0 +1,44 @@
+WEB ROMÁNTICA PARA KARLA SANTILLÁN — DE JEFERSSON MANTUANO
+
+CONTENIDO
+- index.html: textos y secciones de la página.
+- styles.css: diseño, adaptación a móviles y animación del sobre.
+- audio.css: estilo del control de música y animación de la carta.
+- script.js: portada, sobre interactivo, música, contador de días y mensajes sorpresa.
+- fotos/: carpeta para las fotos de ustedes.
+- musicamp3/: carpeta para el archivo de música.
+
+PONER SU MÚSICA
+1. Copie el archivo MP3 dentro de la carpeta musicamp3.
+2. Cámbiele el nombre a cancion.mp3. La página ya está configurada para buscarlo allí.
+
+AÑADIR FOTOS
+1. Las cinco fotos que ya están en la galería se encuentran en la carpeta fotos.
+2. Para reemplazarlas, conserve los nombres actuales: FOTO1 - copia.jpeg, FOTO2 - copia.jpeg, FOTO3 - copia.jpeg, FOTO4 - copia.jpeg y FOTO5 - copia.jpeg.
+3. Si usa nombres diferentes, actualice las rutas de las imágenes en index.html.
+
+PROBAR EN SU COMPUTADORA
+No abra index.html con doble clic, porque algunos navegadores no reproducen el audio desde archivos locales.
+1. Abra una terminal en esta carpeta y ejecute: py -m http.server 8000
+2. En Chrome o Edge, visite http://localhost:8000
+3. Para detener el servidor, vuelva a la terminal y presione Ctrl+C.
+También puede usar la extensión Live Server de VS Code. Se necesita internet para cargar las fuentes decorativas de Google Fonts.
+
+PUBLICAR GRATIS EN GITHUB PAGES
+1. Inicie sesión en https://github.com
+2. Cree un repositorio nuevo llamado para-karla.
+3. Suba index.html, styles.css, audio.css, script.js, LEEME.txt y las carpetas musicamp3 (incluyendo cancion.mp3) y fotos.
+4. En el repositorio vaya a Settings > Pages.
+5. En Build and deployment, seleccione Deploy from a branch.
+6. Seleccione la rama main y la carpeta /(root), luego pulse Save.
+7. Espere a que GitHub genere la dirección pública. Suele tener esta forma: https://SU-USUARIO.github.io/para-karla/
+8. Abra ese enlace desde un celular para comprobarlo y compártalo con Karla.
+
+PARA EDITAR DESPUÉS
+- Textos: index.html
+- Colores, tamaños y animaciones: styles.css y audio.css
+- Contador, melodía y comportamiento del sobre/mensajes: script.js
+Cuando cambie archivos en GitHub, la página publicada se actualizará después de que termine el despliegue.
+
+MÚSICA
+El MP3 está en musicamp3/cancion.mp3. Toque el sobre o el botón para entrar a la historia para iniciar la música. El navegador requiere ese toque para permitir sonido. Después de entrar, use el botón de música para pausarla o reanudarla.

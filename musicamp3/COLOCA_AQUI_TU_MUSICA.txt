@@ -1,0 +1,5 @@
+Coloca aquí tu archivo de música y ponle este nombre:
+
+cancion.mp3
+
+La página lo buscará como musicamp3/cancion.mp3.
